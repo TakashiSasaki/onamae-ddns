@@ -1,5 +1,6 @@
 #!/bin/bash
 source account.sh
+source ipv4.sh
 TMUXSESS=onamae
 tmux kill-session -t ${TMUXSESS}
 tmux new-session -d -s ${TMUXSESS}
