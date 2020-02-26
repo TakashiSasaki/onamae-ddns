@@ -1,6 +1,16 @@
 #!/bin/bash
-source account.sh
-source ipv4.sh
+
+if [ $# -ge 1 ]; then
+	source $1
+fi
+
+if [ $# -ge 2 ]; then
+	source $2
+fi
+
+if [ $# -ge 3 ]; then
+	source $3
+fi
 
 if [ -z "$ONAMAE_USERID" ]; then
 	echo ONAMAE_USERID should be set.
