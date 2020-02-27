@@ -10,3 +10,6 @@ This package includes the following scripts.
 * mylocalipaddress.sh
 * myglobalipaddress.sh
 
+References
+
+* [LinuxやMacで お名前.com ダイナミックDNS の IPアドレスを更新する](https://qiita.com/ats124/items/59ec0f444d00bbcea27d) by [@ats124](https://qiita.com/ats124)
